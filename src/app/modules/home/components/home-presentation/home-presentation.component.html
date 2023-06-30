@@ -1,0 +1,20 @@
+<div class="title-container">
+  <ng-container *ngIf="currentTheme$ | async as currentTheme">
+    <img src="assets/images/logo-{{currentTheme}}.svg" alt="Logo Henrique Isabela" class="title-container__title">
+  </ng-container>
+  <span class="title-container__subtitle body-medium">Um cantinho para guardar momentos especiais</span>
+</div>
+
+<div class="card-container">
+  <ng-container *ngFor="let card of cardsList">
+    <md-sys-card type="filled" color="surface" [alert]="true">
+      <div class="card-container__card on-secondary-container-text">
+        <div class="card-container__card__icon-container">
+          <span class="material-icons-outlined" [innerHTML]="card.icon"></span>
+        </div>
+        <span class="card-container__card__title body-large">{{card.title}}</span>
+        <span class="card-container__card__description body-small">{{card.description}}</span>
+      </div>
+    </md-sys-card>
+  </ng-container>
+</div>

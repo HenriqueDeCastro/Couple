@@ -1,0 +1,23 @@
+<ng-container *ngIf="{value: showDrawer$ | async} as showDrawer">
+  <div class="body-app body-medium" [ngClass]="showDrawer.value? 'noscroll' : 'scroll'">
+    <header>
+      <couple-toolbar></couple-toolbar>
+    </header>
+
+    <ng-container *ngIf="{value: showScrim$ | async} as showScrim">
+      <md-sys-scrim [visible]="showScrim.value!"></md-sys-scrim>
+    </ng-container>
+
+    <nav>
+      <couple-nav></couple-nav>
+      <md-sys-drawer [show]="showDrawer.value!"></md-sys-drawer>
+    </nav>
+
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+
+    <footer></footer>
+  </div>
+</ng-container>
+

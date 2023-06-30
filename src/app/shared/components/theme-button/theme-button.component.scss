@@ -1,0 +1,23 @@
+.theme-button-extended {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--md-sys-color-outline);
+  padding: 12px 16px;
+  height: 48px;
+  transition: background-color 300ms cubic-bezier(0.2, 0, 0, 1);
+  border-radius: 32px;
+
+  &__icon {
+    margin-right: 8px;
+  }
+
+  &:hover {
+    background: var(--md-sys-color-on-surface-variant-2);
+  }
+
+  &:active {
+    background: var(--md-sys-color-on-surface-variant-4);
+  }
+}

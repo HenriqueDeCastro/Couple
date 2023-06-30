@@ -1,0 +1,21 @@
+<div class="md-sys-drawer" [class.md-sys-drawer--active]="show">
+  <div class="md-sys-drawer__drawer-button">
+    <couple-drawer-button icon="&#xe9bd;"></couple-drawer-button>
+  </div>
+  <div class="md-sys-drawer__navigation-container">
+    <div class="md-sys-drawer__navigation-container__list">
+      <ng-container *ngFor="let button of buttonList">
+        <md-sys-nav-button
+          [label]="button.title"
+          [icon]="button.icon!"
+          [route]="button.route!"
+          [extended]="true"
+          (click)="changeStatusDrawer()">
+        </md-sys-nav-button>
+      </ng-container>
+    </div>
+  </div>
+  <div class="md-sys-drawer__theme-button">
+    <couple-theme-button [extended]="true"></couple-theme-button>
+  </div>
+</div>

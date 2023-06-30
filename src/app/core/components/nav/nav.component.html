@@ -1,0 +1,19 @@
+<md-sys-navigation>
+  <div class="button-drawer">
+    <couple-drawer-button icon="&#xe5d2;"></couple-drawer-button>
+  </div>
+
+  <div class="buttons-navigation-container">
+    <ng-container *ngFor="let button of buttonList">
+      <md-sys-nav-button
+        [label]="button.title"
+        [icon]="button.icon!"
+        [route]="button.route!">
+      </md-sys-nav-button>
+    </ng-container>
+  </div>
+
+  <div class="button-theme">
+    <couple-theme-button></couple-theme-button>
+  </div>
+</md-sys-navigation>

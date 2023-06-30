@@ -1,0 +1,23 @@
+.md-sys-icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  border-radius: 26px;
+  width: 48px;
+  height: 48px;
+
+  &--outline {
+    color: var(--md-sys-color-outline);
+    border: 1px solid;
+  }
+
+  &:hover {
+    background: var(--md-sys-color-on-surface-variant-2);
+  }
+
+  &:active {
+    background: var(--md-sys-color-on-surface-variant-4);
+  }
+}

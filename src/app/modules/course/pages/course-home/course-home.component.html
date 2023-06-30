@@ -1,0 +1,13 @@
+<couple-title-page [label]="title"></couple-title-page>
+
+<div class="card-scroll-container">
+  <ng-container *ngFor="let card of cardsList">
+    <md-sys-card type="filled" color="tertiary" [routerLink]="card.route">
+      <div class="card-route on-tertiary-container-text">
+        <span class="card-route__icon material-icons-outlined" [innerHTML]="card.icon"></span>
+        <span class="card-route__title body-large">{{card.title}}</span>
+        <span class="card-route__description label-small">{{card.description}}</span>
+      </div>
+    </md-sys-card>
+  </ng-container>
+</div>

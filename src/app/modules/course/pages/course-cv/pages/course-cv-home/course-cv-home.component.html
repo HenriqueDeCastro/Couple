@@ -1,0 +1,33 @@
+<couple-title-page [backButton]="true" [label]="title"></couple-title-page>
+
+<div class="body-large">
+  <p>Bem-vindo ao curso de casais da Comunidade Vida!</p>
+  <p>
+    O objetivo desses encontros é fortalecer a relação do
+    casal, compartilhando princípios bíblicos que devem
+    ser aplicados na nossa vida diária. Principalmente nos
+    últimos 10 anos, temos ajudado dezenas de casais a
+    alcançarem um nível de maturidade maior no
+    casamento. Nossas vidas são transformadas quando
+    aplicamos na prática as revelações que o Espírito Santo
+    entrega aos nossos corações. Provavelmente você não
+    escutará nada novo, mas prometemos que o
+    relacionamento do casal será muito mais prazeroso,
+    suave, constante e divertido depois de nossos
+    encontros. Para que Jesus seja o centro do nosso
+    casamento, precisamos aplicar alguns princípios que a
+    Palavra de Deus nos ensina. Estamos seguros de que
+    experimentaremos dias de edificação, cura, lágrimas,
+    risadas e muita diversão.
+  </p>
+</div>
+
+<div class="lesson-container">
+  <ng-container *ngFor="let card of cardsList">
+    <md-sys-card type="outlined" [routerLink]="card.route">
+      <div class="lesson-container__card">
+        <span class="body-large">{{card.title}}</span>
+      </div>
+    </md-sys-card>
+  </ng-container>
+</div>

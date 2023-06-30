@@ -1,0 +1,23 @@
+.lesson-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0;
+  gap: 1rem;
+
+  &__card {
+    padding: var(--md-sys-padding-small);
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lesson-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__card {
+      width: 19rem;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.card-scroll-container {
+  display: grid;
+  grid-column: 10;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: 1fr;
+  margin: 1rem -12px;
+  padding: 12px 12px;
+  overflow-x: auto;
+  gap: var(--md-sys-gap-medium);
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .card-route {
+    padding: var(--md-sys-padding-small);
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+
+    &__icon {
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      font-weight: bold;
+    }
+
+    &__description {
+      margin-top: 3px;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .card-scroll-container {
+    grid-column: 5;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: hidden;
+
+    .card-route {
+      padding: var(--md-sys-padding-medium);
+    }
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .card-scroll-container {
+    grid-column: 6;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  font-family: "Google Sans Text", sans-serif;
+  background-color: var(--md-sys-color-background);
+  color: var(--md-sys-color-on-surface);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-weight: normal;
+}

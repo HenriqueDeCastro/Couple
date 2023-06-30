@@ -1,0 +1,12 @@
+<ng-container *ngIf="!image; else cardImage">
+  <div class="card-article">
+    <div class="tertiary-text headline-large">{{number}}</div>
+    <div>
+      <div class="card-article__title tertiary-text body-large">{{title}}</div>
+      <div class="card-article__description">{{description}}</div>
+    </div>
+  </div>
+</ng-container>
+<ng-template #cardImage>
+  <img class="card-image" [src]="image" referrerpolicy="no-referrer">
+</ng-template>

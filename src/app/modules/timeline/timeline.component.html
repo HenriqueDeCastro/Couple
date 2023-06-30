@@ -1,0 +1,36 @@
+<div class="timeline">
+  <md-sys-card class="card-title" type="filled" [alert]="true" color="primary">
+    <div class="card-title__content">Inicio</div>
+  </md-sys-card>
+
+  <div class="center-line"></div>
+
+  <div class="content-data">
+    <ng-container *ngFor="let timelineItem of timelineList">
+      <div class="content-data__article">
+        <div class="left-container">
+          <couple-timeline-card-article
+            [title]="timelineItem.leftItem.title"
+            [description]="timelineItem.leftItem.description"
+            [number]="timelineItem.leftItem.number">
+          </couple-timeline-card-article>
+          <div class="content-data__article__hint">{{timelineItem.leftItem.hint}}</div>
+        </div>
+        <div class="right-container">
+          <couple-timeline-card-article [image]="timelineItem.rightItem.image">
+          </couple-timeline-card-article>
+          <div class="content-data__article__hint">{{timelineItem.rightItem.hint}}</div>
+        </div>
+        <div class="content-data__article__date">
+          <div class="content-data__article__date__month headline-medium">{{timelineItem.date.month}}</div>
+          <div class="content-data__article__date__year body-medium">{{timelineItem.date.year}}</div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <md-sys-card class="card-title" type="filled" [alert]="true" color="primary">
+    <div class="card-title__content">Continua</div>
+  </md-sys-card>
+</div>
+
