@@ -5,19 +5,22 @@
   margin: 3rem 0;
   gap: 1rem;
 
+  md-sys-card {
+    flex-grow: 1;
+  }
+
   &__card {
     padding: var(--md-sys-padding-small);
-    width: 100%;
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 840px) {
   .lesson-container {
     flex-direction: row;
     flex-wrap: wrap;
 
-    &__card {
-      width: 19rem;
+    md-sys-card {
+      flex-basis: 19rem;
     }
   }
 }
