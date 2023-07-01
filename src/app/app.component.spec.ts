@@ -2,14 +2,13 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { of } from 'rxjs';
 import { AppComponent } from './app.component';
-import { FooterModule } from './core/components/footer/footer.module';
 import { DrawerService } from './core/services/drawer/drawer.service';
 import { ToolbarModule } from './core/components/toolbar/toolbar.module';
 import { NavModule } from './core/components/nav/nav.module';
-import { ThemingService } from './core/services/common/theming/theming.service';
-import { ScrimService } from './core/services/common/scrim/scrim.service';
 import { MdSysScrimModule } from './shared/md-sys/components/md-sys-scrim/md-sys-scrim.module';
 import { MdSysDrawerModule } from './shared/md-sys/components/md-sys-drawer/md-sys-drawer.module';
+import { ThemingService } from './core/services/theming/theming.service';
+import { ScrimService } from './core/services/scrim/scrim.service';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -23,8 +22,7 @@ describe('AppComponent', () => {
         ToolbarModule,
         NavModule,
         MdSysScrimModule,
-        MdSysDrawerModule,
-        FooterModule
+        MdSysDrawerModule
       ],
       providers: [
         ThemingService,

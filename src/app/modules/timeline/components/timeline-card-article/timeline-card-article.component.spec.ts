@@ -8,7 +8,7 @@ describe('TimelineCardArticleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TimelineCardArticleComponent ]
+      declarations: [TimelineCardArticleComponent]
     })
     .compileComponents();
 

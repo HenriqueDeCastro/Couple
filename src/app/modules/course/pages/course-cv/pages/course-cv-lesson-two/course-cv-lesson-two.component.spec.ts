@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CourseCvLessonTwoComponent } from './course-cv-lesson-two.component';
+import { TitlePageModule } from 'src/app/shared/components/title-page/title-page.module';
 
 describe('CourseCvLessonTwoComponent', () => {
   let component: CourseCvLessonTwoComponent;
@@ -8,7 +9,8 @@ describe('CourseCvLessonTwoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CourseCvLessonTwoComponent ]
+      declarations: [CourseCvLessonTwoComponent],
+      imports: [TitlePageModule]
     })
     .compileComponents();
 

@@ -7,9 +7,7 @@ import { TitlePageModule } from 'src/app/shared/components/title-page/title-page
 
 
 @NgModule({
-  declarations: [
-    CourseCvLessonTwoComponent
-  ],
+  declarations: [CourseCvLessonTwoComponent],
   imports: [
     CommonModule,
     CourseCvLessonTwoRoutingModule,

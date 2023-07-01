@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CourseCvLessonFourComponent } from './course-cv-lesson-four.component';
+import { TitlePageModule } from 'src/app/shared/components/title-page/title-page.module';
+import { MdSysDividerModule } from 'src/app/shared/md-sys/components/md-sys-divider/md-sys-divider.module';
 
 describe('CourseCvLessonFourComponent', () => {
   let component: CourseCvLessonFourComponent;
@@ -8,7 +10,8 @@ describe('CourseCvLessonFourComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CourseCvLessonFourComponent ]
+      declarations: [CourseCvLessonFourComponent],
+      imports: [TitlePageModule, MdSysDividerModule]
     })
     .compileComponents();
 

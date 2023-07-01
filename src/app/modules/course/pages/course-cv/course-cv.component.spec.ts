@@ -8,7 +8,7 @@ describe('CourseCvComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CourseCvComponent ]
+      declarations: [CourseCvComponent]
     })
     .compileComponents();
 

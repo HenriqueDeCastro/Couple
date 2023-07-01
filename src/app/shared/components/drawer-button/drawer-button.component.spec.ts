@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { DrawerService } from 'src/app/core/services/drawer/drawer.service';
-import { MdSysIconButtonModule } from '../../md-sys/md-sys-button/md-sys-icon-button/md-sys-icon-button.module';
 
 import { DrawerButtonComponent } from './drawer-button.component';
+import { MdSysIconButtonModule } from '../../md-sys/components/md-sys-button/md-sys-icon-button/md-sys-icon-button.module';
 
 describe('DrawerButtonComponent', () => {
   let component: DrawerButtonComponent;

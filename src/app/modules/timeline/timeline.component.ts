@@ -17,7 +17,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Quando nos conhecemos',
-          description: 'Quando nos conhecemos',
+          description: 'Pode não ter sido a forma de conhecer alguém mais romântica do mundo, mas pouco importa, já que foi dessa maneira que encontrei o amor da minha vida. Lembro que foi em um domingo a noite que começamos a conversa na rede social e ficamos por horas sem parar, a conversa foi divertida e agradável.',
           number: '01'
         },
         rightItem: {
@@ -31,7 +31,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Primeiro encontro',
-          description: 'Primeiro encontro',
+          description: 'Eu fui no shopping onde você trabalhava e fiquei extremamente encanto com sua beleza, a conversa tambem foi otima mesmo estando tímido.',
           number: '09'
         },
         rightItem: {
@@ -45,7 +45,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Primeira "Saída"',
-          description: 'Primeira "Saída" Sobrenatural a última chave ',
+          description: 'Você estava de folga e eu faltei na aula para ver a tranqueira do "Sobrenatural a última chave" no cinema, o filme foi péssimo mas o encontro foi ótimo.',
           number: '17'
         },
         rightItem: {
@@ -59,7 +59,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Nosso primeiro registro juntos',
-          description: 'Nosso primeiro registro juntos',
+          description: 'Já tinhamos nos vistos, mas até esse momento nenhuma foto juntos, então quis marcar esse momento que será o registro mais velho d que teremos de nós.',
           number: '01'
         },
         rightItem: {
@@ -73,7 +73,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Primeiro beijo',
-          description: 'Primeiro beijo',
+          description: 'Lembro que tinhamos acabado de contar para nossas familias que estavamos saindo, e decidimos sair a noite, fomos no mini parque de diversões que estava tendo no Grand Plaza, e na roda "gigante" demos nosso primeiro selinho.',
           number: '21'
         },
         rightItem: {
@@ -87,7 +87,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Começamos a namorar',
-          description: 'Começamos a namorar',
+          description: 'Não teve um pedido super lindo ou fofo, fomos nos conhecendo nesse meio tempo e praticamente já eramos namorados, a única coisa que mudou nesse dia foi a formalização.',
           number: '23'
         },
         rightItem: {
@@ -101,8 +101,9 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Encontro Marcante',
-          description: 'Encontro Marcante',
-          number: '25'
+          description: 'Primeira vez que saímos para um lugar mais requintado, lembro que facada no bolso foi grande, mas foi ótima a comida e a sua companhia.',
+          number: '25',
+          hint: 'E para fechar com chave de ouro alimentamos um mendigo'
         },
         rightItem: {
           image: 'https://lh3.googleusercontent.com/pw/AJFCJaUfvO5uQ3EegZ3mtjrvb2S2Ccq7L-DREYYgzcdcUCF9tbx5ygbVE2y-ig4vyTpKMDbW_booi0AGYC1uZa0AMv8Pd23B1fDOOOOZjybtea0EZ9Y5DV7nobFPWUM2P5sa3Tasv5dvovGDJ1VC99Frwpq0hg=w1796-h1350-s-no?authuser=0'
@@ -115,7 +116,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Vandalismo romântico',
-          description: 'Vandalismo romântico',
+          description: 'Dois jovens com a cabeça vazia e um branquinho na mochila, apenas.',
           number: '29'
         },
         rightItem: {
@@ -129,7 +130,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Primeiro aniversário',
-          description: 'Primeiro aniversário',
+          description: 'Nesse dia comemoravámos um aninho de namoros, e graças a Deus, foi o primeiro de muitos.',
           number: '23'
         },
         rightItem: {
@@ -142,8 +143,8 @@ export class TimelineComponent {
       },
       {
         leftItem: {
-          title: 'Encontro Marcante 2',
-          description: 'Encontro Marcante 2',
+          title: 'Encontro Marcante Pt.2',
+          description: 'Queria deixar registrado um encontro nosso há um restaurante japônes, já que depois desse dia, somos obrigados a ir a cada 3 meses.',
           number: '12'
         },
         rightItem: {
@@ -157,7 +158,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Ficamos noivos',
-          description: 'Ficamos noivos',
+          description: 'O dia que comemoramos mais um ano de namoro e além disso, tomamos a melhor decisão de nossas vidas!',
           number: '24'
         },
         rightItem: {
@@ -171,7 +172,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Vandalismo romântico Pt.2',
-          description: 'Vandalismo romântico',
+          description: 'Voltamos nesse dia para ver nossa árvore "pixada", e estava firme e forte!',
           number: '12'
         },
         rightItem: {
@@ -184,8 +185,8 @@ export class TimelineComponent {
       },
       {
         leftItem: {
-          title: 'Encontro Marcante 3',
-          description: 'Encontro Marcante 3',
+          title: 'Encontro Marcante Pt.3',
+          description: 'Passeamos pelo zoologico e fizemos piquenique com sua família, um encontro diferente e muito bom',
           number: '07'
         },
         rightItem: {
@@ -199,11 +200,12 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Vandalismo romântico Pt.3',
-          description: 'Vandalismo romântico',
+          description: 'Apenas a árvore novamente, e também teve nosso aniversário de namoro.',
           number: '23'
         },
         rightItem: {
-          image: 'https://lh3.googleusercontent.com/pw/AJFCJaUgTxO8yXTYQrJuDSAMWx-Q0Z4_VtfPkW5iqRbB3GO38y29YqQf1e1JnFE6rpdk8-CVynxSjoWlImEB9cRooLJ87H7aMFlkQI2Ol1V5fZsQ776SgIp2RoXRxw1NtuU1n8NT-RGQCiPJxG4kxBgzqRyuxg=w1012-h1350-s-no?authuser=0'
+          image: 'https://lh3.googleusercontent.com/pw/AJFCJaUgTxO8yXTYQrJuDSAMWx-Q0Z4_VtfPkW5iqRbB3GO38y29YqQf1e1JnFE6rpdk8-CVynxSjoWlImEB9cRooLJ87H7aMFlkQI2Ol1V5fZsQ776SgIp2RoXRxw1NtuU1n8NT-RGQCiPJxG4kxBgzqRyuxg=w1012-h1350-s-no?authuser=0',
+          hint: 'Precisamos voltar lá com um branquinho URGENTEMENTE!'
         },
         date: {
           month: TimelineMonthEnum.JULY,
@@ -213,11 +215,12 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Nosso chá de cozinha',
-          description: 'chá de cozinha',
+          description: 'Um dia muito gostoso, nossas famílias reunidas, muitas brincadeiraa e presentes, foi nesse dia que a ficha que iria casar caiu.',
           number: '19'
         },
         rightItem: {
-          image: 'https://lh3.googleusercontent.com/pw/AJFCJaVSu-jlomKX7j7GpnfJTSjMO5t-8unnINcx7srn6yUt5zrz7SK-VKjJt6PBf5xtoqoEjsBAD_0OJv7l7X7PvztjCTuyriqbf13rQTHAwcl8uxrcuTWRB5-OKmjNN2oHdQ9e8o2mKV_QVg7Jucw9TsCG4w=w1600-h1200-s-no?authuser=0'
+          image: 'https://lh3.googleusercontent.com/pw/AJFCJaVSu-jlomKX7j7GpnfJTSjMO5t-8unnINcx7srn6yUt5zrz7SK-VKjJt6PBf5xtoqoEjsBAD_0OJv7l7X7PvztjCTuyriqbf13rQTHAwcl8uxrcuTWRB5-OKmjNN2oHdQ9e8o2mKV_QVg7Jucw9TsCG4w=w1600-h1200-s-no?authuser=0',
+          hint: 'Saudades de ganhar vários presentes 😥'
         },
         date: {
           month: TimelineMonthEnum.NOVEMBER,
@@ -226,8 +229,8 @@ export class TimelineComponent {
       },
       {
         leftItem: {
-          title: 'Casamos!',
-          description: 'casamento',
+          title: 'Casamos',
+          description: 'O dia mais especial das nossas vidas, não tenho muito o que falar, apenas que foi perfeito e cada dia que passa agradeço a Deus pela esposa maravilhosa que ele me deu.',
           number: '21'
         },
         rightItem: {
@@ -241,11 +244,13 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'LUA DE MEL!',
-          description: 'coisa boa',
-          number: '22'
+          description: 'Além da nossa lua de mel foi nossa primeira viagem juntos, e não podia ser mais especial, conhecemos lugares lindos, comemos muito peixe e foi o início da nossa vida juntos.',
+          number: '22',
+          hint: 'Também teve outra coisa boa, mas que não vem ao caso agora 😉'
         },
         rightItem: {
-          image: 'https://lh3.googleusercontent.com/pw/AJFCJaXY2kN03x0tgWwmKPZh57t9KtPfxt9VddbJAnuMFCJlg5Hp9Uqpg7YfOTwr1WLQEyA6-jmoxlPCDbmTgqypaSv74ZXy-Nv90xA9xEI7NSv9kNN4N6V-0npK3DIGztEasM3vrc2VJLU5yRzrsjpcPP61oQ=w1538-h1350-s-no?authuser=0'
+          image: 'https://lh3.googleusercontent.com/pw/AJFCJaXY2kN03x0tgWwmKPZh57t9KtPfxt9VddbJAnuMFCJlg5Hp9Uqpg7YfOTwr1WLQEyA6-jmoxlPCDbmTgqypaSv74ZXy-Nv90xA9xEI7NSv9kNN4N6V-0npK3DIGztEasM3vrc2VJLU5yRzrsjpcPP61oQ=w1538-h1350-s-no?authuser=0',
+          hint: 'Maceió - AL'
         },
         date: {
           month: TimelineMonthEnum.JANUARY,
@@ -255,11 +260,12 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'A primeira membro da nossa familia',
-          description: 'PHOEBE',
+          description: 'Na páscoa de 2023 recebemos um presentinho muito fofo, porém o que tem de bonita... tem de arteira... MUITOOO ARTEIRA, mas trouxe mais algeria ainda para nossa casa.',
           number: '09'
         },
         rightItem: {
-          image: 'https://lh3.googleusercontent.com/pw/AJFCJaVaCDxLoajlav9CGZcUSKm_aNbxiHB8Z2kto6oaJMW-P9b5bkEGl6i29niA2L0Wsdc-EFZZaJAFqjrt_-_20Zq8bmNoz04AOtr6d3WdjH8aegkTGMqo4fvZNNygZABDW1Fy6PiSnqNW_Gy0LsTmA7Bpdw=w1012-h1350-s-no?authuser=0'
+          image: 'https://lh3.googleusercontent.com/pw/AJFCJaVaCDxLoajlav9CGZcUSKm_aNbxiHB8Z2kto6oaJMW-P9b5bkEGl6i29niA2L0Wsdc-EFZZaJAFqjrt_-_20Zq8bmNoz04AOtr6d3WdjH8aegkTGMqo4fvZNNygZABDW1Fy6PiSnqNW_Gy0LsTmA7Bpdw=w1012-h1350-s-no?authuser=0',
+          hint: 'Phoebe, a peste fofa'
         },
         date: {
           month: TimelineMonthEnum.APRIL,
@@ -269,7 +275,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'Atualmente nós',
-          description: 'PHOEBE',
+          description: 'Aqui estamos nós atualmente, muito bem casados e felizes, e que nossa felicidade seja eterna!',
           number: '01'
         },
         rightItem: {

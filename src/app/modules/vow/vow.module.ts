@@ -7,10 +7,6 @@ import { MdSysDividerModule } from 'src/app/shared/md-sys/components/md-sys-divi
 
 @NgModule({
   declarations: [VowComponent],
-  imports: [
-    CommonModule,
-    VowRoutingModule,
-    MdSysDividerModule
-  ]
+  imports: [CommonModule, VowRoutingModule]
 })
 export class VowModule { }

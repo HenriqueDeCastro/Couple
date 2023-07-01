@@ -6,11 +6,8 @@ import { CourseCvLessonFourComponent } from './course-cv-lesson-four.component';
 import { TitlePageModule } from 'src/app/shared/components/title-page/title-page.module';
 import { MdSysDividerModule } from 'src/app/shared/md-sys/components/md-sys-divider/md-sys-divider.module';
 
-
 @NgModule({
-  declarations: [
-    CourseCvLessonFourComponent
-  ],
+  declarations: [CourseCvLessonFourComponent],
   imports: [
     CommonModule,
     CourseCvLessonFourRoutingModule,

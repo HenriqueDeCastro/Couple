@@ -1,10 +1,7 @@
-import { RouterTestingModule } from '@angular/router/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { MdSysAlertModule } from 'src/app/shared/md-sys/components/md-sys-alert/md-sys-alert.module';
-import { HomeFeaturesModule } from './components/home-features/home-features.module';
 
 import { HomeComponent } from './home.component';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { HomePresentationModule } from './components/home-presentation/home-presentation.module';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -13,12 +10,7 @@ describe('HomeComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [HomeComponent],
-      imports: [
-        MdSysAlertModule,
-        HomeFeaturesModule,
-        RouterTestingModule,
-        HttpClientTestingModule
-      ]
+      imports: [HomePresentationModule]
     })
     .compileComponents();
 

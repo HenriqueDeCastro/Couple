@@ -30,7 +30,7 @@ export class AppComponent {
     });
   }
 
-  positionZero(): void {
+  private positionZero(): void {
     if (typeof document === 'object' && document) {
       const scrollContent = document.querySelector('.scroll');
       if (scrollContent) {

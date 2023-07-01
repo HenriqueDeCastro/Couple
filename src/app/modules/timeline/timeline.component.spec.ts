@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TimelineComponent } from './timeline.component';
+import { MdSysCardModule } from 'src/app/shared/md-sys/components/md-sys-card/md-sys-card.module';
+import { TimelineCardArticleModule } from './components/timeline-card-article/timeline-card-article.module';
 
 describe('TimelineComponent', () => {
   let component: TimelineComponent;
@@ -8,7 +10,8 @@ describe('TimelineComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TimelineComponent ]
+      declarations: [TimelineComponent],
+      imports: [TimelineCardArticleModule, MdSysCardModule]
     })
     .compileComponents();
 

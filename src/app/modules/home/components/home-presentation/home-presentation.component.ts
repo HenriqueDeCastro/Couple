@@ -18,20 +18,20 @@ export class HomePresentationComponent {
     this.currentTheme$ = this.themingService.currentActive();
     this.cardsList = [
       {
-        title: 'D',
-        icon: '&#xe898;',
-        description: 'Não exigimos login ou cadastro.'
-      },
-      {
-        title: '',
-        icon: '&#xe425;',
-        description: `Informações de CNPJ, ISBN, FIPE e muito mais.`
+        title: 'Nossa história',
+        icon: '&#xea3e;',
+        description: 'Um cantinho para guardar momentos especiais.'
       },
       {
         title: 'Feito com carinho',
         icon: '&#xea70;',
-        description: `Simples, mas feito com amor.`
-      }
+        description: 'Simples, mas feito com amor.'
+      },
+      {
+        title: 'Estudos',
+        icon: '&#xf10a;',
+        description: 'Relembrar tudo que aprendemos como casal.'
+      },
     ]
   }
 }

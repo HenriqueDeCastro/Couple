@@ -8,7 +8,7 @@ describe('VowComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VowComponent ]
+      declarations: [VowComponent]
     })
     .compileComponents();
 
