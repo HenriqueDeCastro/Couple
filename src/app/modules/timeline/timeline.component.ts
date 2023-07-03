@@ -260,7 +260,7 @@ export class TimelineComponent {
       {
         leftItem: {
           title: 'A primeira membro da nossa familia',
-          description: 'Na páscoa de 2023 recebemos um presentinho muito fofo, porém o que tem de bonita... tem de arteira... MUITOOO ARTEIRA, mas trouxe mais algeria ainda para nossa casa.',
+          description: 'Na páscoa de 2023 recebemos um presentinho muito fofo, porém o que tem de bonita... tem de arteira... MUITOOO ARTEIRA, mas trouxe mais alegria para nossa casa.',
           number: '09'
         },
         rightItem: {
